@@ -1,0 +1,35 @@
+.item{
+    cursor: pointer;
+}
+.item-caption{
+    background-color: #fff;
+    position: absolute;
+    padding: 10px;
+    width: 80%;
+   text-align: center;
+    bottom: 20px;
+    left: 10%;
+}
+.item-caption p {
+    margin-bottom: 0;
+}
+.lightboxcontainer{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .5);
+    transition: all ease .5s !important;
+}
+.lightboxitem{
+    width: 45%;
+    height: 500px;
+    background-image: url(../images/project-7.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.lightboxitem i{
+    cursor: pointer;
+    font-size: 22px;
+}
